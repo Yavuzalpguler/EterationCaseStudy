@@ -32,6 +32,7 @@ const MainScreen = props => {
     return (
       <TouchableOpacity
         style={styles.addUserButtonWrapper}
+        testID={'addUserButton'}
         onPress={() => {
           props.navigation.navigate('AddUser');
         }}>

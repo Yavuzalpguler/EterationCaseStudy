@@ -25,6 +25,14 @@ const UserItem = ({
               type === REMOVE ? 'black' : type === DOWN ? 'red' : 'green',
           },
         ]}
+        key={index + type}
+        testID={
+          type === REMOVE
+            ? 'RemoveButton' + index
+            : type === DOWN
+            ? 'DownButton' + index
+            : 'UpButton' + index
+        }
         onPress={() => {
           type === REMOVE
             ? handleUserRemove(item)

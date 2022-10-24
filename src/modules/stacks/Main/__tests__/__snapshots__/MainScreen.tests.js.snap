@@ -1,0 +1,1170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainScreen should render correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "paddingBottom": 26.68,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 22.5,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Pull to refresh the list
+    </Text>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingBottom": 133.4,
+      }
+    }
+    data={
+      Array [
+        Object {
+          "age": 39,
+          "id": 1,
+          "image": "https://i.imgur.com/1TQOw9A.png",
+          "name": "Homer Simpson",
+        },
+        Object {
+          "age": 36,
+          "id": 2,
+          "image": "https://i.imgur.com/1TQOw9A.png",
+          "name": "Marge Simpson",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        colors={
+          Array [
+            "red",
+          ]
+        }
+        onRefresh={[Function]}
+        progressBackgroundColor="red"
+        tintColor="red"
+      />
+    }
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <RCTRefreshControl />
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "rgba(0,0,0,0.2)",
+              "borderTopWidth": 1,
+              "flex": 1,
+              "flexDirection": "row",
+              "height": 150,
+              "justifyContent": "space-between",
+              "opacity": 1,
+              "padding": 15,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "flex": 0.2,
+              }
+            }
+          >
+            1
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "alignItems": "center",
+                  "flex": 2,
+                  "height": 112.5,
+                  "width": 112.5,
+                },
+              ]
+            }
+          >
+            <FastImageView
+              defaultSource={null}
+              resizeMode="contain"
+              source={
+                Object {
+                  "priority": "normal",
+                  "uri": undefined,
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "flex": 5,
+                "fontSize": 30,
+                "textAlign": "left",
+              }
+            }
+          >
+            Homer Simpson
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 3,
+                "flexDirection": "row",
+                "justifyContent": "space-evenly",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "green",
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 45,
+                }
+              }
+              testID="UpButton0"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 22.5,
+                  }
+                }
+              >
+                ↑
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "red",
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 45,
+                }
+              }
+              testID="DownButton0"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 22.5,
+                  }
+                }
+              >
+                ↓
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "black",
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 45,
+                }
+              }
+              testID="RemoveButton0"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 22.5,
+                  }
+                }
+              >
+                X
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "rgba(0,0,0,0.2)",
+              "borderTopWidth": 1,
+              "flex": 1,
+              "flexDirection": "row",
+              "height": 150,
+              "justifyContent": "space-between",
+              "opacity": 1,
+              "padding": 15,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "flex": 0.2,
+              }
+            }
+          >
+            2
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "alignItems": "center",
+                  "flex": 2,
+                  "height": 112.5,
+                  "width": 112.5,
+                },
+              ]
+            }
+          >
+            <FastImageView
+              defaultSource={null}
+              resizeMode="contain"
+              source={
+                Object {
+                  "priority": "normal",
+                  "uri": undefined,
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "flex": 5,
+                "fontSize": 30,
+                "textAlign": "left",
+              }
+            }
+          >
+            Marge Simpson
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 3,
+                "flexDirection": "row",
+                "justifyContent": "space-evenly",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "green",
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 45,
+                }
+              }
+              testID="UpButton1"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 22.5,
+                  }
+                }
+              >
+                ↑
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "red",
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 45,
+                }
+              }
+              testID="DownButton1"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 22.5,
+                  }
+                }
+              >
+                ↓
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "black",
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 45,
+                }
+              }
+              testID="RemoveButton1"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 22.5,
+                  }
+                }
+              >
+                X
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "rgb(46,134,222)",
+        "borderRadius": 75,
+        "bottom": 75,
+        "height": 112.5,
+        "justifyContent": "center",
+        "opacity": 1,
+        "position": "absolute",
+        "width": 112.5,
+      }
+    }
+    testID="addUserButton"
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 75,
+          "lineHeight": 82.5,
+        }
+      }
+    >
+      +
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`MainScreen should render correctly with data 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "paddingBottom": 26.68,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 22.5,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Pull to refresh the list
+    </Text>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingBottom": 133.4,
+      }
+    }
+    data={
+      Array [
+        Object {
+          "age": 39,
+          "id": 1,
+          "image": "https://i.imgur.com/1TQOw9A.png",
+          "name": "Homer Simpson",
+        },
+        Object {
+          "age": 36,
+          "id": 2,
+          "image": "https://i.imgur.com/1TQOw9A.png",
+          "name": "Marge Simpson",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        colors={
+          Array [
+            "red",
+          ]
+        }
+        onRefresh={[Function]}
+        progressBackgroundColor="red"
+        tintColor="red"
+      />
+    }
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <RCTRefreshControl />
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "rgba(0,0,0,0.2)",
+              "borderTopWidth": 1,
+              "flex": 1,
+              "flexDirection": "row",
+              "height": 150,
+              "justifyContent": "space-between",
+              "opacity": 1,
+              "padding": 15,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "flex": 0.2,
+              }
+            }
+          >
+            1
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "alignItems": "center",
+                  "flex": 2,
+                  "height": 112.5,
+                  "width": 112.5,
+                },
+              ]
+            }
+          >
+            <FastImageView
+              defaultSource={null}
+              resizeMode="contain"
+              source={
+                Object {
+                  "priority": "normal",
+                  "uri": undefined,
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "flex": 5,
+                "fontSize": 30,
+                "textAlign": "left",
+              }
+            }
+          >
+            Homer Simpson
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 3,
+                "flexDirection": "row",
+                "justifyContent": "space-evenly",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "green",
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 45,
+                }
+              }
+              testID="UpButton0"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 22.5,
+                  }
+                }
+              >
+                ↑
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "red",
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 45,
+                }
+              }
+              testID="DownButton0"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 22.5,
+                  }
+                }
+              >
+                ↓
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "black",
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 45,
+                }
+              }
+              testID="RemoveButton0"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 22.5,
+                  }
+                }
+              >
+                X
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "rgba(0,0,0,0.2)",
+              "borderTopWidth": 1,
+              "flex": 1,
+              "flexDirection": "row",
+              "height": 150,
+              "justifyContent": "space-between",
+              "opacity": 1,
+              "padding": 15,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "flex": 0.2,
+              }
+            }
+          >
+            2
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "alignItems": "center",
+                  "flex": 2,
+                  "height": 112.5,
+                  "width": 112.5,
+                },
+              ]
+            }
+          >
+            <FastImageView
+              defaultSource={null}
+              resizeMode="contain"
+              source={
+                Object {
+                  "priority": "normal",
+                  "uri": undefined,
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "flex": 5,
+                "fontSize": 30,
+                "textAlign": "left",
+              }
+            }
+          >
+            Marge Simpson
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 3,
+                "flexDirection": "row",
+                "justifyContent": "space-evenly",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "green",
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 45,
+                }
+              }
+              testID="UpButton1"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 22.5,
+                  }
+                }
+              >
+                ↑
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "red",
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 45,
+                }
+              }
+              testID="DownButton1"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 22.5,
+                  }
+                }
+              >
+                ↓
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "black",
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 45,
+                }
+              }
+              testID="RemoveButton1"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 22.5,
+                  }
+                }
+              >
+                X
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "rgb(46,134,222)",
+        "borderRadius": 75,
+        "bottom": 75,
+        "height": 112.5,
+        "justifyContent": "center",
+        "opacity": 1,
+        "position": "absolute",
+        "width": 112.5,
+      }
+    }
+    testID="addUserButton"
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 75,
+          "lineHeight": 82.5,
+        }
+      }
+    >
+      +
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`MainScreen should render correctly with empty data 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "paddingBottom": 26.68,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 22.5,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Pull to refresh the list
+    </Text>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingBottom": 133.4,
+      }
+    }
+    data={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        colors={
+          Array [
+            "red",
+          ]
+        }
+        onRefresh={[Function]}
+        progressBackgroundColor="red"
+        tintColor="red"
+      />
+    }
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <RCTRefreshControl />
+    <View />
+  </RCTScrollView>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "rgb(46,134,222)",
+        "borderRadius": 75,
+        "bottom": 75,
+        "height": 112.5,
+        "justifyContent": "center",
+        "opacity": 1,
+        "position": "absolute",
+        "width": 112.5,
+      }
+    }
+    testID="addUserButton"
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 75,
+          "lineHeight": 82.5,
+        }
+      }
+    >
+      +
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;

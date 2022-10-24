@@ -1,0 +1,475 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddUser should render correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "rgba(242, 242, 242, 1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginTop": 37.5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "marginLeft": 37.5,
+        }
+      }
+    >
+      Name Surname:
+    </Text>
+    <TextInput
+      autoCapitalize="none"
+      keyboardType="default"
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      onSubmitEditing={[Function]}
+      selectionColor="black"
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderColor": "rgba(229, 229, 229, 0.9)",
+            "borderRadius": 15,
+            "borderWidth": 2,
+            "color": "black",
+            "fontSize": 26.250000000000004,
+            "height": 97.5,
+            "marginTop": 13.34,
+            "paddingLeft": 22.5,
+            "width": "90%",
+          },
+          Object {
+            "borderColor": "rgb(46,134,222)",
+          },
+        ]
+      }
+      testID="nameInput"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 37.5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "marginLeft": 37.5,
+        }
+      }
+    >
+      Job Title:
+    </Text>
+    <TextInput
+      autoCapitalize="none"
+      keyboardType="default"
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      onSubmitEditing={[Function]}
+      selectionColor="black"
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderColor": "rgba(229, 229, 229, 0.9)",
+            "borderRadius": 15,
+            "borderWidth": 2,
+            "color": "black",
+            "fontSize": 26.250000000000004,
+            "height": 97.5,
+            "marginTop": 13.34,
+            "paddingLeft": 22.5,
+            "width": "90%",
+          },
+          Object {
+            "borderColor": "rgba(229, 229, 229, 0.9)",
+          },
+        ]
+      }
+      testID="jobInput"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 37.5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "marginLeft": 37.5,
+        }
+      }
+    >
+      About Him/Her:
+    </Text>
+    <TextInput
+      autoCapitalize="none"
+      keyboardType="default"
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      onSubmitEditing={[Function]}
+      selectionColor="black"
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderColor": "rgba(229, 229, 229, 0.9)",
+            "borderRadius": 15,
+            "borderWidth": 2,
+            "color": "black",
+            "fontSize": 26.250000000000004,
+            "height": 97.5,
+            "marginTop": 13.34,
+            "paddingLeft": 22.5,
+            "width": "90%",
+          },
+          Object {
+            "borderColor": "rgba(229, 229, 229, 0.9)",
+          },
+        ]
+      }
+      testID="aboutInput"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 37.5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "marginLeft": 37.5,
+        }
+      }
+    >
+      Image Link:
+    </Text>
+    <TextInput
+      autoCapitalize="none"
+      keyboardType="default"
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      onSubmitEditing={[Function]}
+      selectionColor="black"
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderColor": "rgba(229, 229, 229, 0.9)",
+            "borderRadius": 15,
+            "borderWidth": 2,
+            "color": "black",
+            "fontSize": 26.250000000000004,
+            "height": 97.5,
+            "marginTop": 13.34,
+            "paddingLeft": 22.5,
+            "width": "90%",
+          },
+          Object {
+            "borderColor": "rgba(229, 229, 229, 0.9)",
+          },
+        ]
+      }
+      testID="imageInput"
+      value=""
+    />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "rgb(46,134,222)",
+        "borderRadius": 15,
+        "height": 97.5,
+        "justifyContent": "center",
+        "marginTop": 66.7,
+        "opacity": 1,
+        "width": 675,
+      }
+    }
+    testID="addButton"
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 30,
+        }
+      }
+    >
+      Add Character
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`AddUser should render correctly with empty data 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "rgba(242, 242, 242, 1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginTop": 37.5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "marginLeft": 37.5,
+        }
+      }
+    >
+      Name Surname:
+    </Text>
+    <TextInput
+      autoCapitalize="none"
+      keyboardType="default"
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      onSubmitEditing={[Function]}
+      selectionColor="black"
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderColor": "rgba(229, 229, 229, 0.9)",
+            "borderRadius": 15,
+            "borderWidth": 2,
+            "color": "black",
+            "fontSize": 26.250000000000004,
+            "height": 97.5,
+            "marginTop": 13.34,
+            "paddingLeft": 22.5,
+            "width": "90%",
+          },
+          Object {
+            "borderColor": "rgb(46,134,222)",
+          },
+        ]
+      }
+      testID="nameInput"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 37.5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "marginLeft": 37.5,
+        }
+      }
+    >
+      Job Title:
+    </Text>
+    <TextInput
+      autoCapitalize="none"
+      keyboardType="default"
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      onSubmitEditing={[Function]}
+      selectionColor="black"
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderColor": "rgba(229, 229, 229, 0.9)",
+            "borderRadius": 15,
+            "borderWidth": 2,
+            "color": "black",
+            "fontSize": 26.250000000000004,
+            "height": 97.5,
+            "marginTop": 13.34,
+            "paddingLeft": 22.5,
+            "width": "90%",
+          },
+          Object {
+            "borderColor": "rgba(229, 229, 229, 0.9)",
+          },
+        ]
+      }
+      testID="jobInput"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 37.5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "marginLeft": 37.5,
+        }
+      }
+    >
+      About Him/Her:
+    </Text>
+    <TextInput
+      autoCapitalize="none"
+      keyboardType="default"
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      onSubmitEditing={[Function]}
+      selectionColor="black"
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderColor": "rgba(229, 229, 229, 0.9)",
+            "borderRadius": 15,
+            "borderWidth": 2,
+            "color": "black",
+            "fontSize": 26.250000000000004,
+            "height": 97.5,
+            "marginTop": 13.34,
+            "paddingLeft": 22.5,
+            "width": "90%",
+          },
+          Object {
+            "borderColor": "rgba(229, 229, 229, 0.9)",
+          },
+        ]
+      }
+      testID="aboutInput"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 37.5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "marginLeft": 37.5,
+        }
+      }
+    >
+      Image Link:
+    </Text>
+    <TextInput
+      autoCapitalize="none"
+      keyboardType="default"
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      onSubmitEditing={[Function]}
+      selectionColor="black"
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderColor": "rgba(229, 229, 229, 0.9)",
+            "borderRadius": 15,
+            "borderWidth": 2,
+            "color": "black",
+            "fontSize": 26.250000000000004,
+            "height": 97.5,
+            "marginTop": 13.34,
+            "paddingLeft": 22.5,
+            "width": "90%",
+          },
+          Object {
+            "borderColor": "rgba(229, 229, 229, 0.9)",
+          },
+        ]
+      }
+      testID="imageInput"
+      value=""
+    />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "rgb(46,134,222)",
+        "borderRadius": 15,
+        "height": 97.5,
+        "justifyContent": "center",
+        "marginTop": 66.7,
+        "opacity": 1,
+        "width": 675,
+      }
+    }
+    testID="addButton"
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 30,
+        }
+      }
+    >
+      Add Character
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;

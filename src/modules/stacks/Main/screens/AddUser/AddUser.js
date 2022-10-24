@@ -43,11 +43,19 @@ const AddUser = props => {
     }
   }, [focusedIndex]);
 
-  const renderInput = (placeholder, value, setValue, index, referance) => {
+  const renderInput = (
+    placeholder,
+    value,
+    setValue,
+    index,
+    referance,
+    testID,
+  ) => {
     return (
       <View style={{marginTop: widthPercentage(5)}}>
         <Text style={{marginLeft: widthPercentage(5)}}>{placeholder}</Text>
         <TextInput
+          testID={testID}
           selectionColor={'black'}
           style={[
             styles.textInput,
@@ -75,7 +83,12 @@ const AddUser = props => {
   };
 
   const handleAddUser = () => {
-    if (nameSurname === '' || jobTitle === '' || about === '') {
+    if (
+      nameSurname === '' ||
+      jobTitle === '' ||
+      about === '' ||
+      imageLink === ''
+    ) {
       Alert.alert('Please fill all fields');
       return;
     }
@@ -83,30 +96,60 @@ const AddUser = props => {
       updateMainCustomState('userInfo', {
         data: [
           {
-            id: Math.random(),
+            //set id to be a random certain integer
+            id: userInfo.data.length + 1,
             name: nameSurname,
             job: jobTitle,
             description: about,
-            image: imageLink,
+            avatar: imageLink,
           },
           ...userInfo.data,
         ],
       }),
     );
-    Alert.alert;
-    alert('Successfully added');
+
+    Alert.alert('Successfully added');
     props.navigation.navigate('MainScreen');
   };
 
   return (
     <SafeAreaView style={{backgroundColor: 'rgba(242, 242, 242, 1)', flex: 1}}>
-      {renderInput('Name Surname:', nameSurname, setNameSurname, 0, textRef1)}
-      {renderInput('Job Title:', jobTitle, setJobTitle, 1, textRef2)}
-      {renderInput('About Him/Her:', about, setAbout, 2, textRef3)}
-      {renderInput('Image Link:', imageLink, setImageLink, 3, textRef4)}
+      {renderInput(
+        'Name Surname:',
+        nameSurname,
+        setNameSurname,
+        0,
+        textRef1,
+        'nameInput',
+      )}
+      {renderInput(
+        'Job Title:',
+        jobTitle,
+        setJobTitle,
+        1,
+        textRef2,
+        'jobInput',
+      )}
+      {renderInput(
+        'About Him/Her:',
+        about,
+        setAbout,
+        2,
+        textRef3,
+        'aboutInput',
+      )}
+      {renderInput(
+        'Image Link:',
+        imageLink,
+        setImageLink,
+        3,
+        textRef4,
+        'imageInput',
+      )}
       <TouchableOpacity
         style={styles.addCharButton}
-        onPress={() => handleAddUser()}>
+        onPress={() => handleAddUser()}
+        testID={'addButton'}>
         <Text
           style={{
             fontSize: widthPercentage(4),
